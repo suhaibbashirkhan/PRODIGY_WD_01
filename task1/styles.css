@@ -1,0 +1,55 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    color: #fff;
+}
+
+#content {
+    margin-top: 60px; /* Adjust based on nav height */
+    padding: 20px;
+}
+
+section {
+    height: 600px; /* Adjust for demonstration purposes */
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.scrolled {
+    background-color: #444 !important;
+}
